@@ -1,0 +1,12 @@
+{
+  "name": "ops",
+  "version": "1.0.0",
+  "description": "知识",
+  "main": "index.js",
+  "scripts": {
+    "serve": "gitbook serve",
+    "build": "gitbook build"
+  },
+  "author": "mebaron",
+  "license": "ISC"
+}
