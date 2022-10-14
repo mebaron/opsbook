@@ -1,0 +1,15 @@
+# obsidian
+.obsidian/
+
+
+# .gitignore
+.gitignore
+
+# .bookignore
+.bookignore
+
+# .ignore
+.ignore
+
+# npm
+package.json
