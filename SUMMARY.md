@@ -33,6 +33,16 @@
 * [【k8s】用脚本对pod进行健康探测](k8s/Use-scripts-to-perform-health-detection-on-pods.md)
 * [【k8s】批量删除集群内terminating状态的ns](k8s/Batch-delete-ns-in-terminating-state-in-the-cluster.md)
 * [【k8s】批量修改命名空间下容器的resources配置](k8s/Modify-the-resources-configuration-of-the-container-under-the-namespace.md)
+* [【k8s】alpine镜像无法用telnet访问redis](k8s/Alpine-mirror-cannot-access-redis-with-telnet.md)
+* [【k8s】coredns服务pod启动报错listen tcp :8080: bind: address already in use](k8s/coredns-startup-error-8080-port-address-already-in-use.md)
+* [【k8s】docker logs和kubectl logs查看日志不一致](k8s/Docker-logs-and-kubectl-logs-view-logs-are-inconsistent.md)
+* [【k8s】k8s部署hostport模式pod报错端口冲突](k8s/k8s-deploys-hostport-mode-pod-error-report.md)
+* [【k8s】k8s通过endpoint引入外部服务访问异常](k8s/k8s-introduces-external-service-access-exception-through-endpoint.md)
+* [【k8s】pod挂载nfs数据卷报错权限不足](k8s/pod-mounting-nfs-data-volume-error-report-insufficient-permissions.md)
+* [【k8s】service绑定后端endpoint异常](k8s/Service-binding-backend-endpoint-exception.md)
+* [【k8s】StatefulSet类型pod域名无法解析](k8s/StatefulSet-type-pod-domain-name-cannot-be-resolved.md)
+* [【k8s】k8s集群内pod内无法正确解析coredns中的hosts配置](k8s/The-hosts-configuration-in-coredns-cannot-be-correctly-parsed-in-pods-in-the-k8s-cluster.md)
+* [【k8s】k8s中配置prestop不生效](k8s/The-prestop-configuration-in-k8s-does-not-take-effect.md)
 
 ## TKE运维笔记
 * [【tke】tke上使用docker-in-docker](tke/tke-used-docker-in-docker.md)
@@ -43,6 +53,11 @@
 * [【tke】如何在非root用户启动的镜像中设置挂载目录权限](tke/modify-the-permissions-of-the-container-mount-directory.md)
 * [【tke】alpine镜像内解析域名超5s](tke/The-domain-name-resolved-in-the-alpine-container-exceeds-5s.md)
 * [【tke】TKE重新部署cert-manager一直卡主](tke/TKE-redeploys-cert-manager-and-keeps-getting-stuck.md)
+* [【tke】无法通过负载均衡类型ingress访问后端服务](tke/Cannot-access-back-end-services-through-load-balancing-type-ingress.md)
+* [【tke】pod启动报错mount destination xxxx not absolute](tke/Pod-startup-error-report-mount-destination-xxxx-not-absolute.md)
+* [【tke】pod采用组件挂载cfs报错](tke/Pod-uses-components-to-mount-cfs-to-report-errors.md)
+* [【tke】TKE集群内pod无法解析service name](tke/The-pod-in-the-tke-cluster-cannot-resolve-the-service-name.md)
+* [【tke】TKE集群内pod挂载cos/cfs类型pvc超时](tke/tke-cluster-pod-mount-cos-or-cfs-pvc-timeout.md)
 
 ## prometheus运维笔记
 * [【prometheus】prometheus入门知识概念](prometheus/basic-knowledge-of-prometheus.md)
@@ -60,7 +75,9 @@
 * [【istio】gateway配置http强转https](istio/Gateway-configuration-http-forced-to-https.md)
 * [【istio】istio sidecar注入](istio/istio-sidecar-injection.md)
 * [【istio】如何修改istio的sidecar资源配置](istio/How-to-modify-the-sidecar-resource-configuration.md)
+* [【istio】pod注入sidecar后无法连接mysql](istio/Cannot-connect-to-mysql-after-pod-injects-sidecar.md)
 
 ## 面试问题
 * [【面试】面试之redis篇](interview/redis.md)
+* [【面试】面试之go篇](interview/go.md)
 
